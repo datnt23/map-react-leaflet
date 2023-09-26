@@ -53,7 +53,7 @@ function App() {
 				zoom={ZOOM}
 				zoomControl={false}
 			>
-				<ZoomControl position="bottomright" />
+				<ZoomControl position="topright" />
 				{displayStreet && (
 					<>
 						<TileLayer
@@ -82,7 +82,7 @@ function App() {
 					style={{
 						position: "absolute",
 						top: "40px",
-						right: "10px",
+						right: "60px",
 						zIndex: "1000",
 						backgroundColor: "#ebebeb",
 						fontWeight: "bold",
@@ -121,7 +121,7 @@ function App() {
 				style={{
 					position: "absolute",
 					top: "10px",
-					right: "140px",
+					right: "190px",
 					zIndex: "1000",
 					backgroundColor: "#ebebeb",
 					color: "#0084ff",
@@ -147,7 +147,7 @@ function App() {
 					position: "absolute",
 					top: "10px",
 					zIndex: "1000",
-					right: "5px",
+					right: "60px",
 				}}
 			/>
 			{isLoading === true ? (
